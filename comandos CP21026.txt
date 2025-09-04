@@ -1,0 +1,4 @@
+imagen
+docker build -t cp21026server-php .
+contenedor
+docker run -d --name cp21026-contenedor-server -p 8080:80 -v .:/var/www/html cp21026server-php
