@@ -1,0 +1,21 @@
+*{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 10px;
+}
+body {
+    background-color: #193061;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: auto;
+    text-align: center;
+}
+button{
+    background-color: #6eb6f1;
+    color: #193061;
+    border-radius: 5px;
+}
+button:hover{
+    color: #6eb6f1;
+    background-color: #193061;
+}
