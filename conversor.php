@@ -20,3 +20,24 @@ if (empty ($temperatura) || empty ($tipo)) {
 }
 
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de temperatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Conversor de temperatura</h1>
+    <form action="" method="post">
+        <input type="number" name="temperatura" id="" placeholder="Ingrese la temperatura"><br><br>
+
+        <label for="">Selecciona que conversion deseas</label>
+        <select name="tipo" id="" disabled="disabled">
+        </select>
+        <button type="submit">Calcular</button>
+    </form>
+
+</body>
+</html>
